@@ -1,0 +1,17 @@
+commit 274f0dc5c7b8b9b0c7486517abd14780390c835b
+Author: Gustavo <gustavo_rocha_2-d@hotmail.com>
+Date:   Mon Sep 16 11:32:18 2019 -0400
+
+    arreglamos la pagina imagenes la vista
+
+commit bea09769d07c7f5231158114d282d0bdf63c1dd1
+Author: Gustavo <gustavo_rocha_2-d@hotmail.com>
+Date:   Mon Sep 16 11:05:50 2019 -0400
+
+    se modifico la fecha del footer
+
+commit 7f3d22d7bd103729f3fa1c99fbff6eb241272745
+Author: Gustavo <gustavo_rocha_2-d@hotmail.com>
+Date:   Mon Sep 16 10:57:16 2019 -0400
+
+    se agrego confirmacion de password en la pagina registro
