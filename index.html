@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Comic Con</title>
+	<meta charset="utf-8">
+	<meta name="description" content="pagina elaborada para los eventos ocurridos en la comic con ">
+	<meta name="keyword" content="comic com pagina">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="modernizr.custom.js"></script>
+</head>
+<body>
+<header>
+<figure>
+<img src="imagenes/logo.jpg">
+</figure>
+<h1>COMIC_CON</h1>
+<nav>
+	<ul>
+		
+		<li><a href="index.html">INICIO</a></li>
+		<li><a href="imagenes.html">IMAGENES</a></li>
+		<li><a href="videos.html">VIDEOS</a></li>
+		<li><a href="chat.html">CHAT</a></li>
+		<li><a href="registro.html">REGISTRARSE</a></li>
+		<li><a href="convenio.html">CONVENIO</a></li>
+		<li><a href="anuncios.html">ANUNCIOS</a></li>
+
+	</ul>
+</nav>
+</header>
+
+<div id="InicioAncho">
+    <div id="slider">
+         
+          <div class="elemento">
+            <a href="#"><img src="imagenes/1.jpg"></a>
+            <p class="gancho">Informacion semanales en el <strong>blog!</strong></p>
+          	
+          </div>
+
+          <div class="elemento">
+            <a href="#"><img src="imagenes/3.png"></a>
+            <p class="gancho">La mejor eleccion<strong></strong></p>
+          	
+          </div>
+
+    	
+
+    </div>
+	
+</div>
+
+
+<section>
+ <div class="news">
+ 	<h2>Últimos posts</h2>
+ 	<article class="post">
+ 	  <figure><img src="imagenes/tip.jpg"></figure>
+ 	  <h3>brujeria + cosplay</h3>
+ 	  <p>Bailando al Just Dance en la Comic Con 2017 de Argentina.
+       Face de la Cosplayer:</p>
+     <video controls><source src="videos/video1.mp4" video/mp4; codecs="avc.h264,avc.42E01E"></source></video>
+          			
+          		</video>
+ 	</article>
+
+   <article class="post">
+          	<figure><img src="imagenes/new.jpg">
+          	</figure>
+          	<h3>La OMS recomienda beber más durante el verano</h3>
+          	<p>Debido al aumento de temperaturas que se espera en este verano, la Organización Mundial de la Salud ha emitido un comunicado recomendando ...</p>
+          		
+          	</article>
+
+ </div>
+
+
+		<div class="container">
+<div class="dos-cols">
+<h2>Comic-Con 2017 es historia!</h2>
+<p>Gracias a todos (asistentes, expositores, </br> profesionales, voluntarios y personal) </br>que hicieron de Comic-Con International </br> un gran éxito!.</p>
+
+</div>
+<div class="dos-cols">	
+
+<form class="widget-contacto" action="#" method="post">
+<h2>Contacta ahora!</h2>
+<label for="nombre">Nombre:</label>
+<input id="nombre" type="text" name="nombre" placeholder="Nombre" required="">
+<label for="email">Email:</label>
+<input id="email" type="text" name="email" placeholder="Nombre" required="">
+<label for="mensaje">;Mensaje:</label>
+<textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+<input id="submit" type="submit" name="submit" value="Enviar">
+</form>
+</div>
+
+</div>
+
+	 
+</section>
+
+
+<footer><div id="copyright">&copy 2017 <strong>COMIC_CON</strong>&nbsp; | &nbsp; Todos los derechos reservados</div></footer>
+
+     	
+
+    
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type='text/javascript'> </script>
+<script type="text/javascript">//<![CDATA[
+		$(function(){
+		    $('#slider div:gt(0)').hide();
+		    setInterval(function(){
+		      $('#slider div:first-child').fadeOut(0)
+		         .next('div').fadeIn(1000)
+		         .end().appendTo('#slider');}, 5000);
+		});
+	//]]></script>
+
+
+
+    
+</body>
+</html> 
+
